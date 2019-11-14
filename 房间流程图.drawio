@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-14T08:54:27.681Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="i1GypYJt6ic95MnCKov5" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-14T11:20:15.217Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="C5v3_o_osVCO927K9gSC" version="12.2.6" type="github" pages="1">
   <diagram id="QXnWpjxVT1Wi_6HcI1Gs" name="第 1 页">
     <mxGraphModel dx="1144" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
           <mxGeometry x="527" y="1111" width="110" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-67" value="请求活动浮窗信息" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="532" y="1144" width="110" height="20" as="geometry"/>
+          <mxGeometry x="527" y="1144" width="110" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
