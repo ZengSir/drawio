@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-14T03:50:32.781Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="iecGuYzqVcVSLowszmHi" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-14T03:51:50.395Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="hCawn9IHl6C6voE90LJe" version="12.2.6" type="github" pages="1">
   <diagram id="QXnWpjxVT1Wi_6HcI1Gs" name="第 1 页">
-    <mxGraphModel dx="877" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2392" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -41,82 +41,82 @@
           <mxGeometry x="520" y="348" width="90" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-9" value="" style="rounded=1;absoluteArcSize=1;html=1;strokeWidth=2;arcSize=10;fontSize=14;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="462" width="760" height="690" as="geometry"/>
+          <mxGeometry x="670" y="680" width="940" height="858" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-10" value="" style="html=1;strokeWidth=2;shape=mxgraph.er.anchor;fontSize=14;whiteSpace=wrap;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-9">
-          <mxGeometry width="380" height="690" as="geometry"/>
+          <mxGeometry width="470.00000000000006" height="858" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-32" value="VoiceRoomViewController" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-9">
-          <mxGeometry x="290" y="19.794117647058822" width="180" height="20" as="geometry"/>
+          <mxGeometry x="358.68421052631584" y="24.613554987212275" width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-38" value="VoiceRoomTopView&lt;br&gt;顶部导航控件" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-9">
-          <mxGeometry x="10" y="60" width="740" height="61" as="geometry"/>
+          <mxGeometry x="12.368421052631579" y="74.6086956521739" width="915.2631578947369" height="75.85217391304347" as="geometry"/>
         </mxCell>
-        <mxCell id="uTZmpidnTNi-9U0CQCSV-39" value="" style="rounded=1;absoluteArcSize=1;html=1;strokeWidth=2;arcSize=10;fontSize=14;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="1323" width="890" height="653" as="geometry"/>
+        <mxCell id="uTZmpidnTNi-9U0CQCSV-39" value="" style="rounded=1;absoluteArcSize=1;html=1;strokeWidth=2;arcSize=10;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-9">
+          <mxGeometry x="10" y="184" width="920" height="656" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-40" value="" style="html=1;strokeWidth=2;shape=mxgraph.er.anchor;fontSize=14;whiteSpace=wrap;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-39">
-          <mxGeometry width="444.99999999999994" height="398" as="geometry"/>
+          <mxGeometry width="459.99999999999994" height="399.8284839203676" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-22" value="VoiceRoomProfileView&lt;br&gt;右边" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-39">
-          <mxGeometry x="651" y="40" width="221" height="600" as="geometry"/>
+          <mxGeometry x="672.9438202247192" y="40.18376722817764" width="228.4494382022472" height="602.7565084226648" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-21" value="VoiceRoomAudienceListsChildController&lt;br&gt;左边" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-39">
-          <mxGeometry x="20" y="40" width="267" height="600" as="geometry"/>
+          <mxGeometry x="20.674157303370787" y="40.18376722817764" width="276" height="602.7565084226648" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-17" value="" style="rounded=1;absoluteArcSize=1;html=1;strokeWidth=2;arcSize=10;fontSize=13;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-39">
-          <mxGeometry x="297" y="40" width="335" height="599" as="geometry"/>
+          <mxGeometry x="307.0112359550562" y="40.18376722817764" width="346.2921348314607" height="601.7519142419603" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-18" value="" style="html=1;strokeWidth=2;shape=mxgraph.er.anchor;fontSize=14;whiteSpace=wrap;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-17">
-          <mxGeometry width="167.50000000000003" height="599" as="geometry"/>
+          <mxGeometry width="173.14606741573039" height="601.7519142419603" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-19" value="VoiceRoomChatViewChildController&lt;br&gt;聊天" style="rounded=1;absoluteArcSize=1;html=1;strokeWidth=2;arcSize=10;fontSize=14;whiteSpace=wrap;points=[];strokeColor=inherit;fillColor=inherit;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-17">
-          <mxGeometry x="10.806451612903226" y="345.024" width="313.38709677419354" height="191.68" as="geometry"/>
+          <mxGeometry x="11.170714026821312" y="346.60910260336914" width="323.950706777818" height="192.56061255742733" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-25" value="VoiceRoomMainViewChildController&lt;br&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-17">
-          <mxGeometry x="64.83870967741936" y="9.584" width="210" height="20" as="geometry"/>
+          <mxGeometry x="67.02428416092788" y="9.628030627871366" width="210" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-34" value="VoiceRoomChatToolBar&lt;br&gt;底部聊天工具" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-17">
-          <mxGeometry x="10.806451612903226" y="546.288" width="313.38709677419354" height="47.92" as="geometry"/>
+          <mxGeometry x="11.170714026821312" y="548.7977457886678" width="323.950706777818" height="48.14015313935683" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-14" value="" style="rounded=1;absoluteArcSize=1;html=1;strokeWidth=2;arcSize=10;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-17">
-          <mxGeometry x="10.806451612903226" y="38.336" width="313.38709677419354" height="297.104" as="geometry"/>
+          <mxGeometry x="11.170714026821312" y="38.512122511485465" width="323.950706777818" height="298.46894946401227" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-15" value="" style="html=1;strokeWidth=2;shape=mxgraph.er.anchor;fontSize=14;whiteSpace=wrap;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-14">
-          <mxGeometry width="156.69354838709677" height="267.3936" as="geometry"/>
+          <mxGeometry width="161.975353388909" height="268.62205451761105" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-23" value="&lt;font style=&quot;font-size: 12px&quot;&gt;VoiceRoom&lt;br&gt;OwnerMicView&lt;br&gt;房主&lt;/font&gt;" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-14">
-          <mxGeometry x="21.612903225806452" y="38.336" width="108.06451612903226" height="52.711999999999996" as="geometry"/>
+          <mxGeometry x="22.341428053642623" y="38.51212251148546" width="111.70714026821311" height="52.9541684532925" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-24" value="&lt;font style=&quot;font-size: 12px&quot;&gt;VoiceRoom&lt;br&gt;HostMicView&lt;br&gt;主持&lt;/font&gt;" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-14">
-          <mxGeometry x="183.70967741935485" y="40.2528" width="108.06451612903226" height="47.92" as="geometry"/>
+          <mxGeometry x="189.9021384559623" y="40.43772863705972" width="111.70714026821311" height="48.140153139356826" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-33" value="&lt;font style=&quot;font-size: 12px&quot;&gt;VoiceRoomMicContainerViewChildController&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-14">
-          <mxGeometry x="21.612903225806452" y="6.3665142857142865" width="250" height="20" as="geometry"/>
+          <mxGeometry x="22.341428053642623" y="6.395763202800264" width="250" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-35" value="" style="rounded=1;absoluteArcSize=1;html=1;strokeWidth=2;arcSize=10;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-14">
-          <mxGeometry x="19.451612903225804" y="105.42399999999999" width="272.3225806451612" height="171.55360000000002" as="geometry"/>
+          <mxGeometry x="20.10728524827836" y="105.908336906585" width="281.501993475897" height="172.34174823889745" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-36" value="" style="html=1;strokeWidth=2;shape=mxgraph.er.anchor;fontSize=14;whiteSpace=wrap;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-35">
-          <mxGeometry width="136.1612903225806" height="171.55360000000002" as="geometry"/>
+          <mxGeometry width="140.7509967379485" height="172.34174823889745" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-31" value="PlayersView" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=13;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-35">
-          <mxGeometry x="77.80645161290322" y="8.005834666666669" width="90" height="20" as="geometry"/>
+          <mxGeometry x="80.42914099311344" y="8.042614917815214" width="90" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-27" value="&lt;font style=&quot;font-size: 12px&quot;&gt;MicView&lt;/font&gt;" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-35">
-          <mxGeometry x="18.370967741935484" y="45.74762666666667" width="59.43548387096774" height="45.9235790769231" as="geometry"/>
+          <mxGeometry x="18.99021384559623" y="45.95779953037265" width="61.438927147517205" height="46.13456029779717" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-29" value="&lt;font style=&quot;font-size: 12px&quot;&gt;MicView&lt;/font&gt;" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-35">
-          <mxGeometry x="96.71774193548386" y="91.49525333333334" width="59.43548387096774" height="45.9235790769231" as="geometry"/>
+          <mxGeometry x="99.97789054005074" y="91.9155990607453" width="61.438927147517205" height="46.13456029779717" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-30" value="&lt;font style=&quot;font-size: 12px&quot;&gt;MicView&lt;/font&gt;" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-35">
-          <mxGeometry x="145.34677419354838" y="38.00572061538462" width="59.43548387096774" height="45.9235790769231" as="geometry"/>
+          <mxGeometry x="150.24610366074666" y="38.1803257636942" width="61.438927147517205" height="46.13456029779717" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-28" value="&lt;font style=&quot;font-size: 12px&quot;&gt;MicView&lt;/font&gt;" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;fillColor=none;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-35">
-          <mxGeometry x="175.06451612903226" y="91.58322953846158" width="59.43548387096774" height="45.9235790769231" as="geometry"/>
+          <mxGeometry x="180.96556723450524" y="92.0039794444576" width="61.438927147517205" height="46.13456029779717" as="geometry"/>
         </mxCell>
         <mxCell id="uTZmpidnTNi-9U0CQCSV-42" value="UIScrollView" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;" vertex="1" parent="uTZmpidnTNi-9U0CQCSV-39">
-          <mxGeometry x="400" y="7" width="90" height="20" as="geometry"/>
+          <mxGeometry x="413.4831460674157" y="7.032159264931088" width="90" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
