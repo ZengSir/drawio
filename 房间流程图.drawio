@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-25T07:46:00.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="xvehIXwvzeUkHVKGp27M" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T07:49:57.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="ttM1dmdnHI-514jEql8S" version="12.2.9" type="github" pages="1">
   <diagram id="QXnWpjxVT1Wi_6HcI1Gs" name="第 1 页">
     <mxGraphModel dx="1788" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -405,6 +405,9 @@
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-123" value="TalkPlayersView" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2457" y="777" width="210" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-125" value="PlayersView中包含的数据（roomInfo, gameInfo）应该是常量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1835" y="1154" width="340" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
