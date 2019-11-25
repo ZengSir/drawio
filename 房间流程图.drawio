@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-25T06:14:24.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="_D4xoKgbf5eLXsZwNhVz" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T07:06:01.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="KvQ0dzK5DOCRpw6yZh5Z" version="12.2.9" type="github" pages="1">
   <diagram id="QXnWpjxVT1Wi_6HcI1Gs" name="第 1 页">
-    <mxGraphModel dx="3233" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4492" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -188,12 +188,12 @@
           <mxGeometry x="750" y="2540" width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-5" value="&lt;span style=&quot;text-align: left&quot;&gt;VoiceRoomMainViewChildController&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="735" y="2680" width="210" height="20" as="geometry"/>
+          <mxGeometry x="735" y="2830" width="210" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-7" value="VoiceRoomFoundationBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="960" y="2480" width="280" height="160" as="geometry"/>
         </mxCell>
-        <mxCell id="90Lqw9JZA4BBypxKJD_L-8" value="p: private(set) var roomInfo: VoiceRoomInfo?&#xa;p: private(set) var myRole: VoiceRoomRole?&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-7">
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-8" value="p: private(set) var roomInfo: VoiceRoomInfo?&#xa;p: private(set) var myRole: VoiceRoomRole?&#xa;&#xa;// MARK: 更新我的角色信息&#xa;// MARK: 更新房间信息&#xa;// MARK: 获取用户详情&#xa;// MARK: 麦位可进行的操作数组&#xa;// MARK: 加入服务端房间&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-7">
           <mxGeometry y="30" width="280" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-15" value="VoiceRoomFoundationBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
@@ -209,10 +209,85 @@
           <mxGeometry x="1313" y="2541" width="90" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-17" value="VoiceRoomMainBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="958" y="2670" width="280" height="160" as="geometry"/>
+          <mxGeometry x="958" y="2820" width="280" height="160" as="geometry"/>
         </mxCell>
-        <mxCell id="90Lqw9JZA4BBypxKJD_L-18" value="p: var roomInfo: VoiceRoomInfo&#xa;p: var gameType: VoiceRoomRole?" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-17">
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-18" value="p: var roomInfo: VoiceRoomInfo&#xa;p: var gameType: VoiceRoomRole?&#xa;&#xa;// MARK: 开启麦克风&#xa;// MARK: 关闭麦克风&#xa;// MARK: 获取麦位开启状态&#xa;// MARk: 获取麦克风权限&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-17">
           <mxGeometry y="30" width="280" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-20" value="VoiceRoomMicContainerViewChildController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="3630" width="250" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-22" value="MicPlayBizModelProtocol" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="945" y="3600" width="280" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-23" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-22">
+          <mxGeometry y="30" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-24" value="AccompanyBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3000" width="280" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-25" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;// MARK: 上传图片&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-24">
+          <mxGeometry y="30" width="280" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-25" target="90Lqw9JZA4BBypxKJD_L-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-28" value="AccompanyBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3190" width="280" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-29" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;p: private(set) var auctionInfo: RoomAuctionInfo?&#xa;p: settingAsset&#xa;p: waitingMicInfoArray&#xa;&#xa;// MARK: 控制拍卖流程&#xa;// MARK: 结束拍卖&#xa;// MARK: 获取拍卖房拍卖信息&#xa;// MARK: 刷新房间拍卖列表&#xa;// MARK: 获取设置的拍卖标签&#xa;// MARK: 获取拍卖结果&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-28">
+          <mxGeometry y="30" width="280" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-33" value="AccompanyBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry y="305" width="280" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-34" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;p: private(set) var auctionInfo: RoomAuctionInfo?&#xa;p: settingAsset&#xa;p: waitingMicInfoArray&#xa;&#xa;// MARK: 控制拍卖流程&#xa;// MARK: 结束拍卖&#xa;// MARK: 获取拍卖房拍卖信息&#xa;// MARK: 刷新房间拍卖列表&#xa;// MARK: 获取设置的拍卖标签&#xa;// MARK: 获取拍卖结果&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-33">
+          <mxGeometry y="30" width="280" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-31" value="AccompanyBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry y="305" width="280" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-32" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;p: private(set) var auctionInfo: RoomAuctionInfo?&#xa;p: settingAsset&#xa;p: waitingMicInfoArray&#xa;&#xa;// MARK: 控制拍卖流程&#xa;// MARK: 结束拍卖&#xa;// MARK: 获取拍卖房拍卖信息&#xa;// MARK: 刷新房间拍卖列表&#xa;// MARK: 获取设置的拍卖标签&#xa;// MARK: 获取拍卖结果&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-31">
+          <mxGeometry y="30" width="280" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-29" target="90Lqw9JZA4BBypxKJD_L-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-35" value="KickDefendBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3470" width="280" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-36" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;p: private(set) var gameInfo: xxGameInfo?&#xa;p: var gameResult&#xa;p: waitingMicInfoArray&#xa;&#xa;// MARK: 更新游戏信息&#xa;// MARK: 结束游戏&#xa;// MARK: 获取踢保排行&#xa;// MARK: 设置双倍价格&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-35">
+          <mxGeometry y="30" width="280" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-37" value="KTVBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3720" width="280" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-38" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;p: var ksongInfo: KSongInfo?&#xa;p: var receivedLyricText: String? // 收到的歌词&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-37">
+          <mxGeometry y="30" width="280" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-39" value="MarriageBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3890" width="280" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-40" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;p: var gameInfo: RoomMarryInfo?&#xa;&#xa;// MARK: 更新游戏信息&#xa;// MARK: 开始婚礼&#xa;&#xa;// MARK: 新娘抛捧花&#xa;&#xa;// MARK: 交换戒指&#xa;&#xa;// MARK: 领取结婚证&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-39">
+          <mxGeometry y="30" width="280" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-36" target="90Lqw9JZA4BBypxKJD_L-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-38" target="90Lqw9JZA4BBypxKJD_L-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-40" target="90Lqw9JZA4BBypxKJD_L-23">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-45" value="MateBizModel" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="4140" width="280" height="350" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-46" value="p: var roomInfo: VoiceRoomInfo { get set }&#xa;p: var gameType: VoiceRoomRole? { get }&#xa;&#xa;p: var mateSideMax: Int32 = 4&#xa;&#xa;// MARK: 请求相亲信息&#xa;// 请求相亲配置信息&#xa;// MARK: 选择心动对象&#xa;// MARK: 更新相亲流程&#xa;// MARK: 获取相亲结果&#xa;// MARK: 加入排麦队列&#xa;// MARK: 取消排麦&#xa;// Mark: 检查是否有CP&#xa;// MARK: 判断是否可以加入排麦&#xa;&#xa;&#xa;1Vn扩展&#xa;&#xa;// MARK: 修改灯状态: 灭灯&#xa;// MARK: 请求爆灯礼物信&#xa;// MARK: 爆灯送礼弹窗&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="90Lqw9JZA4BBypxKJD_L-45">
+          <mxGeometry y="30" width="280" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-47" value="VoiceRoomMicContainerViewChildController + Mate 中包含大量的业务代码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="4160" width="420" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
