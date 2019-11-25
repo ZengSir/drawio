@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-25T08:16:04.120Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="0ihJLKCDaxL_3FHwKwaI" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T10:04:57.343Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="xmtV55ludph_YVTE88D4" version="12.2.9" type="github" pages="1">
   <diagram id="QXnWpjxVT1Wi_6HcI1Gs" name="第 1 页">
-    <mxGraphModel dx="1277" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -289,8 +289,8 @@
         <mxCell id="90Lqw9JZA4BBypxKJD_L-53" value="3.Input 、Output &amp;nbsp;建议改名为Delegate 和 DataSource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1914" y="3558" width="300" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="90Lqw9JZA4BBypxKJD_L-54" value="4.&amp;nbsp;outputSinkDelegate, 改为： VoiceRoomViewControllerProtocol" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1826" y="3654" width="360" height="20" as="geometry"/>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-54" value="4.&amp;nbsp;&lt;span style=&quot;color: rgb(158 , 241 , 221) ; font-family: &amp;#34;menlo&amp;#34; ; background-color: rgb(31 , 31 , 36)&quot;&gt;AuctionMicPlayDelegate&lt;/span&gt;, 改为： VoiceRoomViewControllerAuctionProtocol" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1776" y="3654" width="460" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-8" target="90Lqw9JZA4BBypxKJD_L-17">
           <mxGeometry relative="1" as="geometry"/>
@@ -354,8 +354,8 @@
             <mxPoint x="2080.1428571428573" y="1354.1428571428573" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="90Lqw9JZA4BBypxKJD_L-89" value="MicPlayersViewInput" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="1304" width="151" height="100" as="geometry"/>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-89" value="MicPlayersViewDataSource" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="1304" width="181" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="90Lqw9JZA4BBypxKJD_L-91" target="90Lqw9JZA4BBypxKJD_L-89" parent="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -434,6 +434,9 @@
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-136" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span&gt;遵循&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1220" y="3470" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-137" value="继承" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2332" y="2441" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
