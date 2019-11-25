@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-25T08:04:09.570Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="XW2rj3pxTHSTqAzAw_RE" version="12.2.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-25T08:14:35.846Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15" etag="Ro7Gx3Ou3yWZ5qFvqrd7" version="12.2.9" type="github" pages="1">
   <diagram id="QXnWpjxVT1Wi_6HcI1Gs" name="第 1 页">
     <mxGraphModel dx="1277" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -349,8 +349,10 @@
         <mxCell id="90Lqw9JZA4BBypxKJD_L-85" value="PlayersView的属性" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1974" y="2410" width="180" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="90Lqw9JZA4BBypxKJD_L-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="90Lqw9JZA4BBypxKJD_L-89" target="90Lqw9JZA4BBypxKJD_L-104" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="90Lqw9JZA4BBypxKJD_L-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" source="90Lqw9JZA4BBypxKJD_L-89" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2080.1428571428573" y="1354.1428571428573" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-89" value="MicPlayersViewInput" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2150" y="1304" width="151" height="100" as="geometry"/>
@@ -397,17 +399,11 @@
         <mxCell id="90Lqw9JZA4BBypxKJD_L-103" value="MateNormalPlayersView" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2457" y="1844" width="210" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="90Lqw9JZA4BBypxKJD_L-104" value="AccompanyPlayersView" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1900" y="1304" width="180" height="100" as="geometry"/>
-        </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-123" target="90Lqw9JZA4BBypxKJD_L-89">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-123" value="TalkPlayersView" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2457" y="777" width="210" height="100" as="geometry"/>
-        </mxCell>
-        <mxCell id="90Lqw9JZA4BBypxKJD_L-125" value="PlayersView中包含的数据（roomInfo, gameInfo）应该是常量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1835" y="1154" width="340" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="90Lqw9JZA4BBypxKJD_L-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF0000;" edge="1" parent="1" source="90Lqw9JZA4BBypxKJD_L-126" target="90Lqw9JZA4BBypxKJD_L-68">
           <mxGeometry relative="1" as="geometry"/>
